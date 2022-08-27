@@ -1,0 +1,4 @@
+Adafruit_DHT
+json
+requests
+datetime
