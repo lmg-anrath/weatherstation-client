@@ -14,18 +14,16 @@ timestamp = str(datetime.now())
 
 print('Reading data...')
 
-Adafruit_DHT.read_retry(Adafruit_DHT.AM2302, 17)
-time.sleep(2)
 humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.AM2302, 17)
-temperature = str(temperature)
-humidity = str(humidity)
+temperature = str(int(round(temperature, 2)))
+humidity = str(int(round(humidity, 0)))
 
 temperature2, air_pressure, humidity2 = bme280.readBME280All()
 air_pressure = str(int(round(air_pressure,0)))
 
 air_particle = SDS011("/dev/ttyUSB0", use_query_mode=True).query()
-air_particle_pm25 = str(air_pressure[0])
-air_particle_pm10 = str(air_pressure[1])
+air_particle_pm25 = str(air_particle[0])
+air_particle_pm10 = str(air_particle[1])
 
 print(f'Temp: {temperature} °C, Humidity: {humidity} %, Air pressure: {air_pressure} mbar, Air particle: {air_particle_pm25} pm25 and {air_particle_pm10} pm10')
 print('The data has been collected.')
