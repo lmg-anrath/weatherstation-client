@@ -1,1 +1,370 @@
-[]
+[
+    {
+        "timestamp": "2022-08-27 22:30:05.781332",
+        "temperature": "24",
+        "humidity": "45",
+        "air_pressure": "1012",
+        "air_particle_pm25": "1.8",
+        "air_particle_pm10": "4.0"
+    },
+    {
+        "timestamp": "2022-08-27 22:45:04.674252",
+        "temperature": "21",
+        "humidity": "49",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.4",
+        "air_particle_pm10": "3.3"
+    },
+    {
+        "timestamp": "2022-08-27 23:00:04.927124",
+        "temperature": "20",
+        "humidity": "51",
+        "air_pressure": "1013",
+        "air_particle_pm25": "0.9",
+        "air_particle_pm10": "1.5"
+    },
+    {
+        "timestamp": "2022-08-27 23:15:05.268560",
+        "temperature": "20",
+        "humidity": "52",
+        "air_pressure": "1013",
+        "air_particle_pm25": "0.9",
+        "air_particle_pm10": "1.8"
+    },
+    {
+        "timestamp": "2022-08-27 23:30:04.724021",
+        "temperature": "19",
+        "humidity": "52",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.2",
+        "air_particle_pm10": "2.5"
+    },
+    {
+        "timestamp": "2022-08-27 23:45:05.314590",
+        "temperature": "19",
+        "humidity": "53",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.1"
+    },
+    {
+        "timestamp": "2022-08-28 00:00:05.137443",
+        "temperature": "19",
+        "humidity": "53",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.2",
+        "air_particle_pm10": "2.4"
+    },
+    {
+        "timestamp": "2022-08-28 00:15:05.991024",
+        "temperature": "18",
+        "humidity": "53",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.2",
+        "air_particle_pm10": "2.2"
+    },
+    {
+        "timestamp": "2022-08-28 00:30:04.917132",
+        "temperature": "18",
+        "humidity": "53",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.6"
+    },
+    {
+        "timestamp": "2022-08-28 00:45:05.298322",
+        "temperature": "18",
+        "humidity": "54",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.7"
+    },
+    {
+        "timestamp": "2022-08-28 01:00:05.347194",
+        "temperature": "18",
+        "humidity": "54",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.1"
+    },
+    {
+        "timestamp": "2022-08-28 01:15:04.647719",
+        "temperature": "18",
+        "humidity": "54",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.1"
+    },
+    {
+        "timestamp": "2022-08-28 01:30:05.105216",
+        "temperature": "18",
+        "humidity": "54",
+        "air_pressure": "1013",
+        "air_particle_pm25": "0.9",
+        "air_particle_pm10": "1.4"
+    },
+    {
+        "timestamp": "2022-08-28 01:45:05.405193",
+        "temperature": "18",
+        "humidity": "54",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.0"
+    },
+    {
+        "timestamp": "2022-08-28 02:00:04.757833",
+        "temperature": "18",
+        "humidity": "55",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.3"
+    },
+    {
+        "timestamp": "2022-08-28 02:15:05.603913",
+        "temperature": "17",
+        "humidity": "55",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.2",
+        "air_particle_pm10": "2.2"
+    },
+    {
+        "timestamp": "2022-08-28 02:30:05.532910",
+        "temperature": "17",
+        "humidity": "55",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.4"
+    },
+    {
+        "timestamp": "2022-08-28 02:45:04.802489",
+        "temperature": "17",
+        "humidity": "55",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.9"
+    },
+    {
+        "timestamp": "2022-08-28 03:00:05.589316",
+        "temperature": "17",
+        "humidity": "56",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.2",
+        "air_particle_pm10": "3.1"
+    },
+    {
+        "timestamp": "2022-08-28 03:15:04.969929",
+        "temperature": "17",
+        "humidity": "56",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.9"
+    },
+    {
+        "timestamp": "2022-08-28 03:30:05.591840",
+        "temperature": "17",
+        "humidity": "56",
+        "air_pressure": "1013",
+        "air_particle_pm25": "0.9",
+        "air_particle_pm10": "1.5"
+    },
+    {
+        "timestamp": "2022-08-28 03:45:04.833542",
+        "temperature": "17",
+        "humidity": "56",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.1"
+    },
+    {
+        "timestamp": "2022-08-28 04:00:05.168442",
+        "temperature": "17",
+        "humidity": "56",
+        "air_pressure": "1013",
+        "air_particle_pm25": "0.9",
+        "air_particle_pm10": "1.3"
+    },
+    {
+        "timestamp": "2022-08-28 04:15:04.573310",
+        "temperature": "17",
+        "humidity": "56",
+        "air_pressure": "1013",
+        "air_particle_pm25": "0.9",
+        "air_particle_pm10": "1.5"
+    },
+    {
+        "timestamp": "2022-08-28 04:30:05.101228",
+        "temperature": "17",
+        "humidity": "56",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.0"
+    },
+    {
+        "timestamp": "2022-08-28 04:45:05.450781",
+        "temperature": "17",
+        "humidity": "57",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.9"
+    },
+    {
+        "timestamp": "2022-08-28 05:00:04.803209",
+        "temperature": "16",
+        "humidity": "57",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.3"
+    },
+    {
+        "timestamp": "2022-08-28 05:15:05.378670",
+        "temperature": "16",
+        "humidity": "57",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.7"
+    },
+    {
+        "timestamp": "2022-08-28 05:30:04.837893",
+        "temperature": "16",
+        "humidity": "57",
+        "air_pressure": "1013",
+        "air_particle_pm25": "0.8",
+        "air_particle_pm10": "1.2"
+    },
+    {
+        "timestamp": "2022-08-28 05:45:05.134875",
+        "temperature": "16",
+        "humidity": "57",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.3"
+    },
+    {
+        "timestamp": "2022-08-28 06:00:05.371096",
+        "temperature": "16",
+        "humidity": "57",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.6"
+    },
+    {
+        "timestamp": "2022-08-28 06:15:05.720167",
+        "temperature": "16",
+        "humidity": "57",
+        "air_pressure": "1013",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "1.7"
+    },
+    {
+        "timestamp": "2022-08-28 06:30:04.888538",
+        "temperature": "16",
+        "humidity": "58",
+        "air_pressure": "1013",
+        "air_particle_pm25": "0.9",
+        "air_particle_pm10": "1.1"
+    },
+    {
+        "timestamp": "2022-08-28 06:45:05.204388",
+        "temperature": "15",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.6"
+    },
+    {
+        "timestamp": "2022-08-28 07:00:04.605312",
+        "temperature": "15",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.7"
+    },
+    {
+        "timestamp": "2022-08-28 07:15:04.917237",
+        "temperature": "15",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "2.1"
+    },
+    {
+        "timestamp": "2022-08-28 07:30:05.374623",
+        "temperature": "15",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "1.7"
+    },
+    {
+        "timestamp": "2022-08-28 07:45:04.764261",
+        "temperature": "16",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "1.7"
+    },
+    {
+        "timestamp": "2022-08-28 08:00:05.132298",
+        "temperature": "16",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.5",
+        "air_particle_pm10": "3.0"
+    },
+    {
+        "timestamp": "2022-08-28 08:15:05.441941",
+        "temperature": "17",
+        "humidity": "60",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.8",
+        "air_particle_pm10": "3.0"
+    },
+    {
+        "timestamp": "2022-08-28 08:30:05.096039",
+        "temperature": "19",
+        "humidity": "56",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.0",
+        "air_particle_pm10": "1.8"
+    },
+    {
+        "timestamp": "2022-08-28 08:45:04.983758",
+        "temperature": "18",
+        "humidity": "57",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.5",
+        "air_particle_pm10": "3.6"
+    },
+    {
+        "timestamp": "2022-08-28 09:00:05.211577",
+        "temperature": "19",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.1",
+        "air_particle_pm10": "1.8"
+    },
+    {
+        "timestamp": "2022-08-28 09:15:05.484568",
+        "temperature": "19",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.7",
+        "air_particle_pm10": "4.6"
+    },
+    {
+        "timestamp": "2022-08-28 09:30:04.878461",
+        "temperature": "19",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.6",
+        "air_particle_pm10": "3.8"
+    },
+    {
+        "timestamp": "2022-08-28 09:45:05.178093",
+        "temperature": "19",
+        "humidity": "58",
+        "air_pressure": "1014",
+        "air_particle_pm25": "1.6",
+        "air_particle_pm10": "3.8"
+    }
+]

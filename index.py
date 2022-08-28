@@ -1,8 +1,6 @@
 import json
 import requests
-import os
 import time
-from datetime import datetime
 
 from sds011 import SDS011
 import Adafruit_DHT
@@ -10,7 +8,7 @@ import bme280
 
 config = json.load(open('config.json'))
 log = json.load(open('data.json'))
-timestamp = str(datetime.now())
+timestamp = str(round(time.time()))
 
 print('Reading data...')
 
