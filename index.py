@@ -13,11 +13,11 @@ timestamp = str(round(time.time()))
 print('Reading data...')
 
 humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.AM2302, 17)
-temperature = str(int(round(temperature, 2)))
-humidity = str(int(round(humidity, 0)))
+temperature = str(round(temperature, 2))
+humidity = str(round(humidity, 0))
 
 temperature2, air_pressure, humidity2 = bme280.readBME280All()
-air_pressure = str(int(round(air_pressure,0)))
+air_pressure = str(round(air_pressure,0))
 
 air_particle = SDS011("/dev/ttyUSB0", use_query_mode=True).query()
 air_particle_pm25 = str(air_particle[0])
