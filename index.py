@@ -26,8 +26,6 @@ air_particle_pm10 = str(air_particle[1])
 print(f'Temp: {temperature} °C, Humidity: {humidity} %, Air pressure: {air_pressure} mbar, Air particle: {air_particle_pm25} pm25 and {air_particle_pm10} pm10')
 print('The data has been collected.')
 
-print('Logging data in \'data.json\'')
-
 data = {
 	'timestamp': timestamp,
 	'temperature': temperature,
@@ -37,9 +35,10 @@ data = {
 	'air_particle_pm10': air_particle_pm10
 }
 
-log.append(data)
-json.dump(log, open('data.json', 'w'), indent = 4, separators = (',',': '))
-print('Data successfully saved!')
+# print('Logging data in \'data.json\'')
+# log.append(data)
+# json.dump(log, open('data.json', 'w'), indent = 4, separators = (',',': '))
+# print('Data successfully saved!')
 
 
 print('Uploading data to the server...');
