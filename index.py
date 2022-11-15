@@ -7,7 +7,7 @@ import Adafruit_DHT
 import bme280
 
 config = json.load(open('config.json'))
-log = json.load(open('data.json'))
+# log = json.load(open('data.json'))
 timestamp = str(round(time.time()))
 
 print('Reading data...')
