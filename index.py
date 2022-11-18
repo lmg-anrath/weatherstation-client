@@ -23,7 +23,7 @@ air_particle = SDS011("/dev/ttyUSB0", use_query_mode=True).query()
 air_particle_pm25 = str(air_particle[0])
 air_particle_pm10 = str(air_particle[1])
 
-print(f'Temp: {temperature} °C, Humidity: {humidity} %, Air pressure: {air_pressure} mbar, Air particle: {air_particle_pm25} pm25 and {air_particle_pm10} pm10')
+print(f'Temp: {temperature} °C, Humidity: {humidity} %, Air pressure: {air_pressure} hPa, Air particle: {air_particle_pm25} pm25 and {air_particle_pm10} pm10')
 print('The data has been collected.')
 
 data = {
