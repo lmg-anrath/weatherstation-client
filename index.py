@@ -45,11 +45,8 @@ data = {
 
 print('Uploading data to the server...');
 
-data['stationId'] = config['stationId']
-data['accessToken'] =  config['accessToken']
-
 try:
-	res = requests.post(config['url'] + '/post', data=data)
+	res = requests.post(config['url'] + '/v2/stations/' + data['stationId'], data=data, headers={ 'Authorization': config['accessToken'] })
 
 	print('Upload completed with status code ' + str(res.status_code) + '!')
 	print('Response from server: ' + res.text)
