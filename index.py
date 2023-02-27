@@ -43,8 +43,6 @@ temperature = temperature1
 humidity = humidity1
 if temperature1 == None and temperature2 != None:
 	temperature = temperature2
-if humidity == None and humidity2 != None:
-	humidity = humidity2
 
 air_particle_pm25 = None
 air_particle_pm10 = None
