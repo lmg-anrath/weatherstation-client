@@ -19,8 +19,8 @@ temperature1 = None
 humidity1 = None
 try:
 	humidity1, temperature1 = Adafruit_DHT.read_retry(Adafruit_DHT.AM2302, 17)
-	temperature1 = str(round(temperature, 2))
-	humidity1 = str(round(humidity, 0))
+	temperature1 = str(round(temperature1, 2))
+	humidity1 = str(round(humidity1, 0))
 except Exception as e:
 	print('Error while reading data from DHT22!')
 	print(e)
