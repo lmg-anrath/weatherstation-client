@@ -15,16 +15,16 @@ timestamp = str(round(time.time()))
 print('Reading data...')
 errors = {}
 
-temperature = None
-humidity = None
+temperature1 = None
+humidity1 = None
 try:
-	humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.AM2302, 17)
-	temperature = str(round(temperature, 2))
-	humidity = str(round(humidity, 0))
+	humidity1, temperature1 = Adafruit_DHT.read_retry(Adafruit_DHT.AM2302, 17)
+	temperature1 = str(round(temperature1, 2))
+	humidity1 = str(round(humidity1, 0))
 except Exception as e:
-	print('Error while reading data from AM2302!')
+	print('Error while reading data from DHT22!')
 	print(e)
-	errors['AM2302'] = str(e);
+	errors['DHT22'] = str(e);
 
 temperature2 = None
 air_pressure = None
@@ -32,17 +32,17 @@ humidity2 = None
 try:
 	temperature2, air_pressure, humidity2 = bme280.readBME280All()
 	temperature2 = str(round(temperature2, 2))
-	humidity = str(round(humidity, 0))
+	humidity2 = str(round(humidity2, 0))
 	air_pressure = str(round(air_pressure, 0))
 except Exception as e:
 	print('Error while reading data from BME280!')
 	print(e)
 	errors['BME280'] = str(e);
 
-if temperature == None and temperature2 != None:
+temperature = temperature1
+humidity = humidity1
+if temperature1 == None and temperature2 != None:
 	temperature = temperature2
-if humidity == None and humidity2 != None:
-	humidity = humidity2
 
 air_particle_pm25 = None
 air_particle_pm10 = None
@@ -55,7 +55,7 @@ except Exception as e:
 	print(e)
 	errors['SDS011'] = str(e);
 
-print(f'Temp: {temperature} °C & {temperature2} °C, Humidity: {humidity} & {humidity2} %, Air pressure: {air_pressure} hPa, Air particle: {air_particle_pm25} pm25 and {air_particle_pm10} pm10')
+print(f'Temp: {temperature} C ({temperature1} C & {temperature2} C), Humidity: {humidity} % ({humidity1} % & {humidity2} %), Air pressure: {air_pressure} hPa, Air particle: {air_particle_pm25} pm25 and {air_particle_pm10} pm10')
 print('The data has been collected.')
 
 data = { 'timestamp': timestamp }
